@@ -3,7 +3,6 @@ package TestCases;
 import Pages.*;
 import commons.InitializePropertyFile;
 import commons.TestBase;
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -11,7 +10,7 @@ import java.io.IOException;
 
 import static commons.Configuration.url;
 
-public class Sc_02_TvSelection extends TestBase {
+public class SC_02_TvSelection extends TestBase {
 
 	@BeforeMethod
 	public void openPage() {

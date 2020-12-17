@@ -35,7 +35,7 @@ public class TestBase {
 		InitializePropertyFile.loadPropertyFile();
 	}
 
-	//@AfterMethod
+	@AfterMethod
 	public void tearDown() {
 		if (driver != null) {
 			//driver.close();

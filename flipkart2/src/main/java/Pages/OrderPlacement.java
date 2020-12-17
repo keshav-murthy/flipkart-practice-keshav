@@ -17,6 +17,12 @@ public class OrderPlacement extends BasePage {
 	@FindBy(xpath = "//button[@class='_2KpZ6l _1seccl _3AWRsL']")
 	WebElement continueAhead;
 	
+	@FindBy(xpath = "//div[contains(text(),'Remove Basket')]")
+	WebElement removeBasket;
+	
+	@FindBy(xpath = "//div[@class='_3dsJAO _24d-qY FhkMJZ']")
+	WebElement removeBasketAgain;
+	
 	public OrderPlacement(WebDriver driver) {
 		super(driver);
 	}
@@ -34,5 +40,15 @@ public class OrderPlacement extends BasePage {
 	public void continueWithYourOrder() {
 		wait.forElementToBeVisible(continueAhead);
 		click(continueAhead);
+	}
+	
+	public void clickOnRemoveBasket() {
+		wait.forElementToBeVisible(removeBasket);
+		click(removeBasket);
+	}
+	
+	public void clickOnAreYouSure() {
+		wait.forElementToBeVisible(removeBasketAgain);
+		click(removeBasketAgain);
 	}
 }

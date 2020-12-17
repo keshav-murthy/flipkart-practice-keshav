@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="77448" started-at="2020-12-17T14:22:41 IST" finished-at="2020-12-17T14:23:58 IST">
+  <suite name="Default suite" duration-ms="32916" started-at="2020-12-17T19:44:09 IST" finished-at="2020-12-17T19:44:42 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="77448" started-at="2020-12-17T14:22:41 IST" finished-at="2020-12-17T14:23:58 IST">
-      <class name="TestCases.Sc_02_TvSelection">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.Sc_02_TvSelection@528931cf]" name="setUp" is-config="true" duration-ms="13230" started-at="2020-12-17T14:22:41 IST" finished-at="2020-12-17T14:22:54 IST">
+    <test name="Default test" duration-ms="32916" started-at="2020-12-17T19:44:09 IST" finished-at="2020-12-17T19:44:42 IST">
+      <class name="TestCases.SC_03_GrocerySection">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.SC_03_GrocerySection@528931cf]" name="setUp" is-config="true" duration-ms="13227" started-at="2020-12-17T19:44:09 IST" finished-at="2020-12-17T19:44:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="openPage()[pri:0, instance:TestCases.Sc_02_TvSelection@528931cf]" name="openPage" is-config="true" duration-ms="5405" started-at="2020-12-17T14:22:54 IST" finished-at="2020-12-17T14:22:59 IST">
+        <test-method status="PASS" signature="openPage()[pri:0, instance:TestCases.SC_03_GrocerySection@528931cf]" name="openPage" is-config="true" duration-ms="5059" started-at="2020-12-17T19:44:22 IST" finished-at="2020-12-17T19:44:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openPage -->
-        <test-method status="PASS" signature="TvPurchasing()[pri:1, instance:TestCases.Sc_02_TvSelection@528931cf]" name="TvPurchasing" duration-ms="58675" started-at="2020-12-17T14:22:59 IST" finished-at="2020-12-17T14:23:58 IST">
+        <test-method status="PASS" signature="removingFromCart()[pri:2, instance:TestCases.SC_03_GrocerySection@528931cf]" name="removingFromCart" duration-ms="14554" started-at="2020-12-17T19:44:27 IST" finished-at="2020-12-17T19:44:42 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TvPurchasing -->
-      </class> <!-- TestCases.Sc_02_TvSelection -->
+        </test-method> <!-- removingFromCart -->
+      </class> <!-- TestCases.SC_03_GrocerySection -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
