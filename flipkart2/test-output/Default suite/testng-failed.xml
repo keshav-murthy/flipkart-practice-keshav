@@ -7,6 +7,7 @@
         <methods>
           <include name="setUp"/>
           <include name="TvPurchasing"/>
+          <include name="tearDown"/>
           <include name="openPage"/>
         </methods>
       </class> <!-- TestCases.Sc_02_TvSelection -->

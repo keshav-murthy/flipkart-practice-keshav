@@ -2,6 +2,7 @@ package Pages;
 
 import java.util.Set;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -20,6 +21,9 @@ public class ProductPage extends BasePage {
 	@FindBy(xpath = "//a[contains(text(),'Court Royale AC Sneakers For Men')]")
 	WebElement desiredProduct;
 
+
+	@FindBy(xpath = "//input[@id='pincodeInputId']")
+	WebElement pincode;
 	public ProductPage(WebDriver driver) {
 		super(driver);
 	}
@@ -29,6 +33,7 @@ public class ProductPage extends BasePage {
 		for (String i : handles) {
 			driver.switchTo().window(i);
 		}
+		selectPincode();
 		clickOnAddToCart();
 	}
 
@@ -36,9 +41,16 @@ public class ProductPage extends BasePage {
 		// scrollToElementView(size);
 		click(size);
 	}
-
+	
+	public void selectPincode() {
+		//scrollToPixel(250);
+		wait.forElementToBeClickable(pincode);
+		click(pincode);
+		pincode.sendKeys(Keys.ENTER);
+	}
+	
 	public void clickOnAddToCart() {
-		scrollToPixel(250);
+		scrollToPixel(4300);
 		wait.forElementToBeClickable(addToCart);
 		click(addToCart);
 	}

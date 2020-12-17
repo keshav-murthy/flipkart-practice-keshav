@@ -34,5 +34,10 @@ public class Sc_02_TvSelection extends TestBase {
 
 		ProductPage product = new ProductPage(driver);
 		product.switchToNewWindow();
+		
+		OrderPlacement order=new OrderPlacement(driver);
+		order.orderBooking();
+		order.deliveryAddress();
+		order.continueWithYourOrder();
 	}
 }

@@ -1,3 +1,9 @@
 *.project
+
 /test-output
+
 /target/
+*.jpg
+*.html
+*.xml
+
