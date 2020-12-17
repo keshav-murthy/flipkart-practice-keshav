@@ -2,38 +2,38 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="42029" started-at="2020-12-17T11:44:56 IST" finished-at="2020-12-17T11:45:38 IST">
+  <suite name="Default suite" duration-ms="56586" started-at="2020-12-17T12:39:27 IST" finished-at="2020-12-17T12:40:23 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="42029" started-at="2020-12-17T11:44:56 IST" finished-at="2020-12-17T11:45:38 IST">
+    <test name="Default test" duration-ms="56586" started-at="2020-12-17T12:39:27 IST" finished-at="2020-12-17T12:40:23 IST">
       <class name="TestCases.Sc_02_TvSelection">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.Sc_02_TvSelection@528931cf]" name="setUp" is-config="true" duration-ms="11413" started-at="2020-12-17T11:44:56 IST" finished-at="2020-12-17T11:45:08 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.Sc_02_TvSelection@528931cf]" name="setUp" is-config="true" duration-ms="17799" started-at="2020-12-17T12:39:27 IST" finished-at="2020-12-17T12:39:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="openPage()[pri:0, instance:TestCases.Sc_02_TvSelection@528931cf]" name="openPage" is-config="true" duration-ms="5222" started-at="2020-12-17T11:45:08 IST" finished-at="2020-12-17T11:45:13 IST">
+        <test-method status="PASS" signature="openPage()[pri:0, instance:TestCases.Sc_02_TvSelection@528931cf]" name="openPage" is-config="true" duration-ms="7332" started-at="2020-12-17T12:39:44 IST" finished-at="2020-12-17T12:39:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openPage -->
-        <test-method status="FAIL" signature="TvPurchasing()[pri:1, instance:TestCases.Sc_02_TvSelection@528931cf]" name="TvPurchasing" duration-ms="23221" started-at="2020-12-17T11:45:13 IST" finished-at="2020-12-17T11:45:36 IST">
+        <test-method status="FAIL" signature="TvPurchasing()[pri:1, instance:TestCases.Sc_02_TvSelection@528931cf]" name="TvPurchasing" duration-ms="30554" started-at="2020-12-17T12:39:52 IST" finished-at="2020-12-17T12:40:22 IST">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element is not clickable at point (182, 552)
+              <![CDATA[element click intercepted: Element is not clickable at point (184, 552)
   (Session info: chrome=87.0.4280.88)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-K9EHMR9', ip: '192.168.0.144', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 283460e5011875880d2e01b813622c1d]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61587}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f20642622d7257b55873b295f8f78a0d]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (182, 552)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (184, 552)
   (Session info: chrome=87.0.4280.88)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-K9EHMR9', ip: '192.168.0.144', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 283460e5011875880d2e01b813622c1d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61587}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f20642622d7257b55873b295f8f78a0d
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
