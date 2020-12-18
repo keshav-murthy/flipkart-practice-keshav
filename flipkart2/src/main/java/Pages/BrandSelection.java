@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import commons.BasePage;
+import commons.Timeouts;
 
 public class BrandSelection extends BasePage {
 

@@ -32,7 +32,7 @@ public class SC_03_GrocerySection extends TestBase {
 	}
 	
 	@Test(priority = 2)
-	public void removingFromCart()
+	public void removingFromCart() throws InterruptedException
 	{
 		LoginPage login = new LoginPage(driver);
 		login.getUsername(InitializePropertyFile.property.getProperty("username"));
@@ -45,5 +45,6 @@ public class SC_03_GrocerySection extends TestBase {
 		OrderPlacement orders=new OrderPlacement(driver);
 		orders.clickOnRemoveBasket();
 		orders.clickOnAreYouSure();
+		Thread.sleep(10000);
 	}
 }
