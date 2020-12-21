@@ -16,7 +16,7 @@ public class SC_03_GrocerySection extends TestBase {
 		driver.get(url.asString());
 	}
 
-	@Test(priority = 1)
+	//@Test(priority = 1)
 	public void buyingCoolDrinks()  {
 		LoginPage login = new LoginPage(driver);
 		login.getUsername(InitializePropertyFile.property.getProperty("username"));

@@ -109,6 +109,7 @@ public abstract class BasePage {
 
 	public static void scrollToPixel(int px) {
 		js.executeScript("window.scrollTo(0," + px + ")");
+		//webElement.click();
 	}
 
 	/* This is wrapper method to check the web element is displayed on the page */

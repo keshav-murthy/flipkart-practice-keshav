@@ -28,7 +28,6 @@ public class SearchPage extends BasePage {
 			wait.forElementToBeVisible(searchField);
 			sendKeys(searchField, product);
 		}
-
 	}
 
 	public void onClick() {

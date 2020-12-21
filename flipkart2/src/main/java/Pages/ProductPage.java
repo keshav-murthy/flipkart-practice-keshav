@@ -21,9 +21,9 @@ public class ProductPage extends BasePage {
 	@FindBy(xpath = "//a[contains(text(),'Court Royale AC Sneakers For Men')]")
 	WebElement desiredProduct;
 
-
 	@FindBy(xpath = "//input[@id='pincodeInputId']")
 	WebElement pincode;
+
 	public ProductPage(WebDriver driver) {
 		super(driver);
 	}
@@ -41,14 +41,14 @@ public class ProductPage extends BasePage {
 		// scrollToElementView(size);
 		click(size);
 	}
-	
+
 	public void selectPincode() {
-		//scrollToPixel(250);
+		// scrollToPixel(250);
 		wait.forElementToBeClickable(pincode);
 		click(pincode);
 		pincode.sendKeys(Keys.ENTER);
 	}
-	
+
 	public void clickOnAddToCart() {
 		scrollToPixel(4300);
 		wait.forElementToBeClickable(addToCart);
