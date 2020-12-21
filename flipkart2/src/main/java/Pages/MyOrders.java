@@ -11,7 +11,7 @@ public class MyOrders extends BasePage {
 	@FindBy(xpath = "//span[contains(text(),'Wrangler')]")
 	WebElement productToReview;
 	
-	@FindBy(xpath = "//span[@class='_2YpB-X col-3-5']")
+	@FindBy(xpath = "//span[contains(text(),'Rate & Review Product')]")
 	WebElement review;
 
 	@FindBy(xpath = "//span[@id='star-0-add-rating']")
@@ -29,10 +29,10 @@ public class MyOrders extends BasePage {
 	@FindBy(xpath = "//span[@id='star-4-add-rating']")
 	WebElement excellent;
 	
-	@FindBy(xpath = "//textarea[@class='_3kRe7w']")
+	@FindBy(xpath = "//textarea[@placeholder='Description...']")
 	WebElement description;
 	
-	@FindBy(xpath = "//input[@class='_1_lIQp']")
+	@FindBy(xpath = "//input[@type='file']")
 	WebElement addFiles;
 
 	public MyOrders(WebDriver driver) {
